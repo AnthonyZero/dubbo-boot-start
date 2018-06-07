@@ -1,6 +1,6 @@
 # SpringBoot+zk+dubbo架构实践简单示例
 
-* 一 本地部署zookeeper
+1. 一 本地部署zookeeper
 
 [下载zookeeper](http://zookeeper.apache.org/)，我使用的版本是：zookeeper-3.4.12
 
@@ -15,7 +15,6 @@ clientPort=2181
 按照自己需要可以修改tickTime 心跳时间 dataDir数据目录 clientPort客户端连接端口
 
 启动 Zookeeper 服务（如果是windows，则使用.cmd文件）
-
 > bin>zKServer.cmd
 
 客户端即可连接 Zookeeper服务器
