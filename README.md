@@ -1,6 +1,6 @@
 # SpringBoot+zk+dubbo架构实践简单示例
 
-1. 一 本地部署zookeeper
+* 一 本地部署zookeeper
 
 [下载zookeeper](http://zookeeper.apache.org/)，我使用的版本是：zookeeper-3.4.12
 
@@ -20,3 +20,6 @@ clientPort=2181
 客户端即可连接 Zookeeper服务器
 > bin>zkCli.cmd -server 127.0.0.1:2181
 
+* 二 Dubbo-admin管理平台安装
+
+转向 https://github.com/apache/incubator-dubbo-ops 按照README.md操作git clone 并到指定目录打包mvn package
