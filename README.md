@@ -13,3 +13,7 @@ clientPort=2181
 ```
 
 按照自己需要可以修改tickTime 心跳时间 dataDir数据目录 clientPort客户端连接端口
+
+启动 Zookeeper 服务（如果是windows，则使用.cmd文件）
+
+> bin>zKServer.cmd
