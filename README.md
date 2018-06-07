@@ -17,3 +17,7 @@ clientPort=2181
 启动 Zookeeper 服务（如果是windows，则使用.cmd文件）
 
 > bin>zKServer.cmd
+
+客户端即可连接 Zookeeper服务器
+> bin>zkCli.cmd -server 127.0.0.1:2181
+
