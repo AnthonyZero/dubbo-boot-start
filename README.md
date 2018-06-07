@@ -29,6 +29,6 @@ clientPort=2181
 dubbo.registry.address=zookeeper://127.0.0.1:2181
 dubbo.admin.root.password=root
 dubbo.admin.guest.password=guest
-
 ```
-启动 zookeeper 服务后再启动 tomcat 服务器，成功后便可在浏览器中访问并看到如下界面，说明已经安装成功。
+启动 zookeeper 服务后再启动 tomcat 服务器，成功后便可在浏览器中访问http://localhost:8080/dubbo-admin-2.0.0/ 输入用户名和密码并看到如下界面，说明已经安装成功。
+![Dubbo Admin管理后台]( http://bmob-cdn-10519.b0.upaiyun.com/2018/06/07/e611aa1e40dbc7cf8010c35201a81998.png)
