@@ -22,4 +22,13 @@ clientPort=2181
 
 * 二 Dubbo-admin管理平台安装
 
-转向 https://github.com/apache/incubator-dubbo-ops 按照README.md操作git clone 并到指定目录打包mvn package
+转向 https://github.com/apache/incubator-dubbo-ops 按照README.md操作
+
+得到dubbo-admin-2.0.0.war解压到tomcat服务器中,找到 WEB-INF/dubbo.properties 文件并修改其中配置
+```
+dubbo.registry.address=zookeeper://127.0.0.1:2181
+dubbo.admin.root.password=root
+dubbo.admin.guest.password=guest
+
+```
+启动 zookeeper 服务后再启动 tomcat 服务器，成功后便可在浏览器中访问并看到如下界面，说明已经安装成功。
